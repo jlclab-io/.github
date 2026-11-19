@@ -1,8 +1,8 @@
-# JLC LAB · GitHub Organization Profile
+# JLCLAB · GitHub Organization Profile
 
-This repository contains the GitHub organization profile and related static assets for **[JLC LAB](https://github.com/jlclab-io)**.
+This repository contains the GitHub organization profile and related static assets for **[JLCLAB](https://github.com/jlclab-io)**.
 
-本仓库用于维护 **JLC LAB GitHub 组织主页**及其静态资源，统一管理主页介绍、图片、动图和图标等内容。
+本仓库用于维护 **JLCLAB GitHub 组织主页**及其静态资源，统一管理主页介绍、图片、动图和图标等内容。
 
 ## 📁 Directory Structure
 
@@ -70,7 +70,7 @@ github-icon.svg
 Markdown 示例：
 
 ```markdown
-![JLC LAB Banner](./assets/images/jlclab-banner.png)
+![JLCLAB Banner](./assets/images/jlclab-banner.png)
 
 ![Candis Demo](./assets/gifs/candis-demo.gif)
 ```
@@ -79,7 +79,7 @@ HTML 示例：
 
 ```html
 <p align="center">
-  <img src="./assets/images/jlclab-banner.png" width="100%" alt="JLC LAB">
+  <img src="./assets/images/jlclab-banner.png" width="100%" alt="JLCLAB">
 </p>
 ```
 
@@ -104,7 +104,7 @@ chore: remove unused assets
 
 ## 🔗 Related Links
 
-- [JLC LAB Organization](https://github.com/jlclab-io)
+- [JLCLAB Organization](https://github.com/jlclab-io)
 - [Community](https://github.com/jlclab-io/community)
 - [GitHub Documentation – Customizing your organization's profile](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile)
 
