@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img">
+<title>JLCLAB — Our Mission: Just Help Engineers</title>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8FCFF"/><stop offset=".55" stop-color="#EAF7FF"/><stop offset="1" stop-color="#D6F0FF"/></linearGradient>
+ <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#176DAA"/><stop offset="1" stop-color="#13AFC2"/></linearGradient>
+ <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#9BCDE8" opacity=".38"/></pattern>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#3B8DBA" flood-opacity=".18"/></filter>
+</defs>
+<rect width="1200" height="370" rx="26" fill="url(#bg)"/><rect width="1200" height="370" rx="26" fill="url(#grid)"/>
+<circle cx="1090" cy="55" r="170" fill="#B9E8FA" opacity=".3"/><circle cx="770" cy="340" r="170" fill="#B6E9F0" opacity=".22"/>
+<g fill="none" stroke="#62B6D9" stroke-width="2" opacity=".55"><path d="M650 0V34H740V64H800M720 370V330H790V300H835M1150 180H1095V210H1060M1000 0V28H1045V48M1200 285H1150V260H1110M640 292H700V270H745"/></g>
+<g fill="#2EA8C8"><circle cx="800" cy="64" r="4"/><circle cx="835" cy="300" r="4"/><circle cx="1060" cy="210" r="4"/><circle cx="1045" cy="48" r="4"/><circle cx="1110" cy="260" r="4"/><circle cx="745" cy="270" r="4"/></g>
+<rect x="64" y="52" width="360" height="34" rx="17" fill="#fff" stroke="#C5E4F4"/><circle cx="84" cy="69" r="5" fill="#18AFC1"/>
+<text x="100" y="74" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#347A9F">OPEN HARDWARE / EMBEDDED / EDGE AI</text>
+<text x="62" y="174" font-family="Arial,sans-serif" font-size="88" font-weight="800" fill="#105B92">JLCLAB</text>
+<text x="68" y="218" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#147BAF">OUR MISSION: JUST HELP ENGINEERS</text>
+<rect x="68" y="240" width="330" height="3" rx="1.5" fill="#18AFC1"/>
+<text x="68" y="278" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#236F99">BUILD · EXPERIMENT · SHARE</text>
+<text x="68" y="310" font-family="Arial,sans-serif" font-size="15" fill="#557D95">Practical hardware projects and resources for makers.</text>
+<g filter="url(#shadow)"><rect x="825" y="66" width="238" height="238" rx="28" fill="#D8EFFB" stroke="#8ACCE7" stroke-width="2"/><rect x="850" y="91" width="188" height="188" rx="23" fill="#0E3F63"/><rect x="879" y="120" width="130" height="130" rx="18" fill="url(#chip)" stroke="#76D8E8" stroke-width="2"/></g>
+<g stroke="#4A9FC5" stroke-width="5" stroke-linecap="round"><path d="M858 108H840M858 139H840M858 170H840M858 201H840M858 232H840M858 263H840M1030 108H1048M1030 139H1048M1030 170H1048M1030 201H1048M1030 232H1048M1030 263H1048M882 94V76M913 94V76M944 94V76M975 94V76M1006 94V76M882 276V294M913 276V294M944 276V294M975 276V294M1006 276V294"/></g>
+<g fill="none" stroke="#C8F5FF" stroke-width="3"><path d="M900 155h24l12-12h28M986 214h-20l-12 12h-28M944 135v18l-10 10v14M977 234v-15l10-10v-15"/></g>
+<text x="944" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="48" font-weight="800" fill="#fff">JL</text><text x="944" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#D4F6FF">LAB</text>
+<rect x="1080" y="85" width="82" height="68" rx="12" fill="#fff" stroke="#B5DCEC" filter="url(#shadow)"/><path d="M1092 121h10l7-17 9 31 9-22 7 8h16" fill="none" stroke="#18A8C1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1"><rect x="750" y="324" width="92" height="27" rx="13.5" fill="#E3F5FF" stroke="#9BD5EB"/><text x="796" y="342" text-anchor="middle" fill="#176DAA">ESP32</text><rect x="852" y="324" width="112" height="27" rx="13.5" fill="#E3F5FF" stroke="#9BD5EB"/><text x="908" y="342" text-anchor="middle" fill="#176DAA">ROCKCHIP</text><rect x="974" y="324" width="148" height="27" rx="13.5" fill="#E5F8F5" stroke="#9ADFD2"/><text x="1048" y="342" text-anchor="middle" fill="#168A7B">MORE HARDWARE</text></g>
+</svg>
