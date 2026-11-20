@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="svg-title svg-desc">
+<title id="svg-title">Pebble Watch Recreation</title>
+<desc id="svg-desc">A DIY smartwatch recreation with a compact display and device interaction.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#041638"/><stop offset=".52" stop-color="#073C96"/><stop offset="1" stop-color="#075CE5"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A5BC7"/><stop offset="1" stop-color="#06265D"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7CF0FF"/><stop offset="1" stop-color="#16B9FF"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#65DFFF" stroke-opacity=".13" stroke-width="1"/></pattern>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="720" height="360" rx="22" fill="url(#bg)"/>
+<rect width="720" height="360" rx="22" fill="url(#grid)"/>
+<g fill="none" stroke="#29CFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".78">
+  <path d="M0 62H72V96H128V126H184"/><path d="M0 100H42V136H94V160H152"/>
+  <path d="M720 58H650V92H602V122H548"/><path d="M720 300H662V270H612V240H558"/>
+  <path d="M82 360V324H132V294H190"/><path d="M638 0V36H590V64H544"/>
+</g>
+<g fill="#61E5FF" filter="url(#glow)"><circle cx="184" cy="126" r="5"/><circle cx="152" cy="160" r="4"/><circle cx="548" cy="122" r="5"/><circle cx="558" cy="240" r="4"/><circle cx="190" cy="294" r="4"/><circle cx="544" cy="64" r="4"/></g>
+<g opacity=".13" fill="#58D8FF"><circle cx="620" cy="82" r="72"/><circle cx="104" cy="280" r="84"/></g>
+<g font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="2.2" fill="#BCEFFF"><text x="28" y="32">JLCLAB  /  OPEN HARDWARE</text></g>
+<g transform="translate(296 52)">
+  <path d="M64 0h90l18 52H46zM46 190h126l-18 58H64z" fill="#0A2B61" stroke="#48D9FF" stroke-width="4"/>
+  <rect x="24" y="42" width="166" height="154" rx="24" fill="url(#panel)" stroke="#9AF1FF" stroke-width="5"/>
+  <rect x="43" y="61" width="128" height="116" rx="12" fill="#061A3C" stroke="#1CBFFF" stroke-width="3"/>
+  <text x="107" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="38" font-weight="800" fill="#C7F8FF">10:08</text>
+  <path d="M60 139h94" stroke="#25CFFF" stroke-width="4" stroke-linecap="round"/><circle cx="150" cy="151" r="6" fill="#6BEAFF"/>
+</g>
+<text x="360" y="338" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#C7F6FF">PEBBLE WATCH</text>
+</svg>

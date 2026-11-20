@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="svg-title svg-desc">
+<title id="svg-title">Offline AI Box</title>
+<desc id="svg-desc">An offline AI assistant prototype using lightweight language models on RK3566.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#041638"/><stop offset=".52" stop-color="#073C96"/><stop offset="1" stop-color="#075CE5"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A5BC7"/><stop offset="1" stop-color="#06265D"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7CF0FF"/><stop offset="1" stop-color="#16B9FF"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#65DFFF" stroke-opacity=".13" stroke-width="1"/></pattern>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="720" height="360" rx="22" fill="url(#bg)"/>
+<rect width="720" height="360" rx="22" fill="url(#grid)"/>
+<g fill="none" stroke="#29CFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".78">
+  <path d="M0 62H72V96H128V126H184"/><path d="M0 100H42V136H94V160H152"/>
+  <path d="M720 58H650V92H602V122H548"/><path d="M720 300H662V270H612V240H558"/>
+  <path d="M82 360V324H132V294H190"/><path d="M638 0V36H590V64H544"/>
+</g>
+<g fill="#61E5FF" filter="url(#glow)"><circle cx="184" cy="126" r="5"/><circle cx="152" cy="160" r="4"/><circle cx="548" cy="122" r="5"/><circle cx="558" cy="240" r="4"/><circle cx="190" cy="294" r="4"/><circle cx="544" cy="64" r="4"/></g>
+<g opacity=".13" fill="#58D8FF"><circle cx="620" cy="82" r="72"/><circle cx="104" cy="280" r="84"/></g>
+<g font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="2.2" fill="#BCEFFF"><text x="28" y="32">JLCLAB  /  OPEN HARDWARE</text></g>
+<g transform="translate(258 76)">
+  <rect x="0" y="18" width="204" height="154" rx="22" fill="url(#panel)" stroke="#68E9FF" stroke-width="5"/>
+  <rect x="24" y="42" width="156" height="106" rx="14" fill="#061A3C" stroke="#1CBFFF" stroke-width="3"/>
+  <path d="M54 102q26-36 52 0t52 0" fill="none" stroke="#65E8FF" stroke-width="7" stroke-linecap="round" filter="url(#glow)"/>
+  <circle cx="102" cy="74" r="9" fill="#BDF8FF"/>
+  <g stroke="#8CEEFF" stroke-width="5" stroke-linecap="round"><path d="M42 18V4M76 18V4M110 18V4M144 18V4M178 18V4"/><path d="M42 172v14M76 172v14M110 172v14M144 172v14M178 172v14"/></g>
+</g>
+<text x="360" y="338" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#C7F6FF">OFFLINE AI BOX</text>
+</svg>
