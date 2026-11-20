@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="svg-title svg-desc">
+<title id="svg-title">TaishanPi 3M-RK3576</title>
+<desc id="svg-desc">Stylized illustration for the TaishanPi 3M-RK3576 development platform. This is a visual card, not a board photograph.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#041638"/><stop offset=".52" stop-color="#073C96"/><stop offset="1" stop-color="#075CE5"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A5BC7"/><stop offset="1" stop-color="#06265D"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7CF0FF"/><stop offset="1" stop-color="#16B9FF"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#65DFFF" stroke-opacity=".13" stroke-width="1"/></pattern>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="720" height="360" rx="22" fill="url(#bg)"/><rect width="720" height="360" rx="22" fill="url(#grid)"/>
+<g fill="none" stroke="#29CFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".78"><path d="M0 62H72V96H128V126H184"/><path d="M0 100H42V136H94V160H152"/><path d="M720 58H650V92H602V122H548"/><path d="M720 300H662V270H612V240H558"/><path d="M82 360V324H132V294H190"/><path d="M638 0V36H590V64H544"/></g>
+<g fill="#61E5FF" filter="url(#glow)"><circle cx="184" cy="126" r="5"/><circle cx="152" cy="160" r="4"/><circle cx="548" cy="122" r="5"/><circle cx="558" cy="240" r="4"/><circle cx="190" cy="294" r="4"/><circle cx="544" cy="64" r="4"/></g>
+<g opacity=".13" fill="#58D8FF"><circle cx="620" cy="82" r="72"/><circle cx="104" cy="280" r="84"/></g>
+<g font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="2.2" fill="#BCEFFF"><text x="28" y="32">JLCLAB  /  OPEN HARDWARE</text></g>
+<g transform="translate(158 68)">
+  <rect x="0" y="0" width="404" height="226" rx="20" fill="url(#panel)" stroke="#48D9FF" stroke-width="3"/><rect x="18" y="18" width="368" height="190" rx="14" fill="#06295F" stroke="#1C8EF4" stroke-width="2"/>
+  <g stroke="#6CEBFF" stroke-width="4" stroke-linecap="round"><path d="M74 18V5M110 18V5M146 18V5M182 18V5M218 18V5M254 18V5M290 18V5M326 18V5"/><path d="M74 208V221M110 208V221M146 208V221M182 208V221M218 208V221M254 208V221M290 208V221M326 208V221"/></g>
+  <rect x="118" y="54" width="168" height="112" rx="14" fill="url(#cyan)" stroke="#D5FAFF" stroke-width="3"/>
+  <text x="202" y="101" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="800" fill="#05265B">3M-RK3576</text><text x="202" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#063D7A">APPLICATION</text>
+  <g fill="#B8F4FF" stroke="#0C69C5" stroke-width="2"><rect x="34" y="52" width="56" height="30" rx="5"/><rect x="314" y="52" width="56" height="30" rx="5"/><rect x="34" y="132" width="56" height="30" rx="5"/><rect x="314" y="132" width="56" height="30" rx="5"/></g>
+  <g fill="#0A3D80"><rect x="42" y="60" width="40" height="14" rx="2"/><rect x="322" y="60" width="40" height="14" rx="2"/><rect x="42" y="140" width="40" height="14" rx="2"/><rect x="322" y="140" width="40" height="14" rx="2"/></g>
+</g>
+<text x="360" y="338" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#C7F6FF">TAISHANPI 3M-RK3576</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="svg-title svg-desc">
+<title id="svg-title">MicroDuck Robot Recreation</title>
+<desc id="svg-desc">A bipedal robot duck recreation project exploring movement, balance, and recovery.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#041638"/><stop offset=".52" stop-color="#073C96"/><stop offset="1" stop-color="#075CE5"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A5BC7"/><stop offset="1" stop-color="#06265D"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7CF0FF"/><stop offset="1" stop-color="#16B9FF"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#65DFFF" stroke-opacity=".13" stroke-width="1"/></pattern>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="720" height="360" rx="22" fill="url(#bg)"/><rect width="720" height="360" rx="22" fill="url(#grid)"/>
+<g fill="none" stroke="#29CFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".78"><path d="M0 62H72V96H128V126H184"/><path d="M0 100H42V136H94V160H152"/><path d="M720 58H650V92H602V122H548"/><path d="M720 300H662V270H612V240H558"/><path d="M82 360V324H132V294H190"/><path d="M638 0V36H590V64H544"/></g>
+<g fill="#61E5FF" filter="url(#glow)"><circle cx="184" cy="126" r="5"/><circle cx="152" cy="160" r="4"/><circle cx="548" cy="122" r="5"/><circle cx="558" cy="240" r="4"/><circle cx="190" cy="294" r="4"/><circle cx="544" cy="64" r="4"/></g>
+<g opacity=".13" fill="#58D8FF"><circle cx="620" cy="82" r="72"/><circle cx="104" cy="280" r="84"/></g>
+<g font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="2.2" fill="#BCEFFF"><text x="28" y="32">JLCLAB  /  ROBOT RECREATION</text></g>
+<g transform="translate(278 78)">
+  <ellipse cx="82" cy="130" rx="72" ry="58" fill="url(#panel)" stroke="#67E9FF" stroke-width="4"/>
+  <circle cx="132" cy="72" r="42" fill="url(#cyan)" stroke="#D8FBFF" stroke-width="4"/>
+  <path d="M164 76l48 15-47 18z" fill="#FFBE45" stroke="#FFE6A3" stroke-width="3"/>
+  <circle cx="142" cy="62" r="6" fill="#05265B"/>
+  <path d="M64 177l-18 42M105 178l20 41" stroke="#B9F5FF" stroke-width="11" stroke-linecap="round"/>
+  <path d="M32 221h28M112 221h28" stroke="#36D9FF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M54 105q-34-28-49 4" fill="none" stroke="#6CEBFF" stroke-width="8" stroke-linecap="round"/>
+</g>
+<text x="360" y="338" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#C7F6FF">MICRODUCK RECREATION</text>
+</svg>

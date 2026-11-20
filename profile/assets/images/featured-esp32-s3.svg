@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="svg-title svg-desc">
+<title id="svg-title">ESP32-S3 Development Platform</title>
+<desc id="svg-desc">Stylized ESP32-S3 wireless MCU development card. The illustration is not an exact PCB layout or product photograph.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#041638"/><stop offset=".52" stop-color="#073C96"/><stop offset="1" stop-color="#075CE5"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A5BC7"/><stop offset="1" stop-color="#06265D"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7CF0FF"/><stop offset="1" stop-color="#16B9FF"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#65DFFF" stroke-opacity=".13" stroke-width="1"/></pattern>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="720" height="360" rx="22" fill="url(#bg)"/><rect width="720" height="360" rx="22" fill="url(#grid)"/>
+<g fill="none" stroke="#29CFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".78"><path d="M0 62H72V96H128V126H184"/><path d="M0 100H42V136H94V160H152"/><path d="M720 58H650V92H602V122H548"/><path d="M720 300H662V270H612V240H558"/><path d="M82 360V324H132V294H190"/><path d="M638 0V36H590V64H544"/></g>
+<g fill="#61E5FF" filter="url(#glow)"><circle cx="184" cy="126" r="5"/><circle cx="152" cy="160" r="4"/><circle cx="548" cy="122" r="5"/><circle cx="558" cy="240" r="4"/><circle cx="190" cy="294" r="4"/><circle cx="544" cy="64" r="4"/></g>
+<g opacity=".13" fill="#58D8FF"><circle cx="620" cy="82" r="72"/><circle cx="104" cy="280" r="84"/></g>
+<g font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="2.2" fill="#BCEFFF"><text x="28" y="32">JLCLAB  /  OPEN HARDWARE</text></g>
+<g transform="translate(176 76)">
+  <rect x="0" y="0" width="368" height="204" rx="22" fill="url(#panel)" stroke="#48D9FF" stroke-width="4"/><rect x="18" y="18" width="332" height="168" rx="15" fill="#06295F" stroke="#1C8EF4" stroke-width="2"/>
+  <g stroke="#6CEBFF" stroke-width="4" stroke-linecap="round"><path d="M62 18V5M98 18V5M134 18V5M170 18V5M206 18V5M242 18V5M278 18V5M314 18V5"/><path d="M62 186V199M98 186V199M134 186V199M170 186V199M206 186V199M242 186V199M278 186V199M314 186V199"/></g>
+  <rect x="94" y="48" width="180" height="104" rx="14" fill="url(#cyan)" stroke="#D5FAFF" stroke-width="3"/><text x="184" y="91" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="800" fill="#05265B">ESP32-S3</text><text x="184" y="119" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#063D7A">WIRELESS MCU</text>
+  <g fill="#B8F4FF" stroke="#0C69C5" stroke-width="2"><rect x="34" y="52" width="34" height="24" rx="4"/><rect x="300" y="52" width="34" height="24" rx="4"/><rect x="34" y="124" width="34" height="24" rx="4"/><rect x="300" y="124" width="34" height="24" rx="4"/></g>
+  <path d="M184 48V30q0-14 14-14h42" fill="none" stroke="#75E9FF" stroke-width="4" stroke-linecap="round"/><circle cx="240" cy="16" r="5" fill="#75E9FF" filter="url(#glow)"/>
+</g>
+<text x="360" y="338" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#C7F6FF">ESP32-S3  /  WIRELESS MCU</text>
+</svg>
